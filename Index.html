@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Code Blog</title>
+ <style>
+ /* CSS Styles */
+ body {
+ font-family: Arial;
+ margin: 0;
+ }
+ header {
+ background-color: #333;
+ color: #fff;
+ padding: 1em;
+ text-align: center;
+ }
+ nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+ }
+ nav ul li {
+ margin-right: 20px;
+ }
+ nav a {
+ color: #fff;
+ text-decoration: none;
+ }
+ main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 2em;
+ }
+ blog-posts {
+ background-color: #f7f7f7;
+ padding: 1em;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">Blog</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <h1>Welcome to Code Blog!</h1>
+ <section class="blog-posts">
+ <h2>Latest Post:</h2>
+ <p id="post-title"></p>
+ <p id="post-content"></p>
+ </section>
+ </main>
+ <script>
+ // JS Script
+ const postTitle = "Urdu Poetry for Coders";
+ const postContent = "Coding with soul, poetry in heart...";
+ document.getElementById("post-title").innerHTML = postTitle;
+ document.getElementById("post-content").innerHTML = postContent;
+ </script>
+</body>
+</html>
+```
+Shall I add a poem to the "post-content" section – perhaps "Code ki Nazm" (Ode to Code)?
